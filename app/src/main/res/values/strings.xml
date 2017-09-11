@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Componentes</string>
+    <string name="componentes_main_texto">Hello Alex</string>
+    <string name="componentes_main_button">Aceptar</string>
+    <string name="componentes_main_button_cancel">Cancelar</string>
+    <string name="name">Nombre</string>
+    <string name="hint_name">Ingresar nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="hint_lastname">Ingresa Apellido</string>
+    <string name="avatar">Ingrese Avatar</string>
+    <string name="logo">Seleccione logo</string>
+    <string-array name="animals_array">
+        <item>Leon</item>
+        <item>Burra</item>
+        <item>Tigre</item>
+        <item>Tiburon</item>
+        <item>Tortuga</item>
+        <item>Suripanta</item>
+        <item>Buho</item>
+        <item>Oso</item>
+        <item>Jirafa</item>
+    </string-array>
+</resources>

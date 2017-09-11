@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.com.etn.componentes.ComponentesMainActivity"
+    >
+
+    <TextView
+        android:id="@+id/componentes_main_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/componentes_main_texto"
+        />
+
+    <Button
+        android:id="@+id/componentes_main_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/componentes_main_button"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/componentes_main_button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/componentes_main_button_cancel"
+        android:background="@drawable/etnbutton"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:tint="@color/colorPrimaryDark"
+        android:src="@mipmap/ic_launcher_round"/>
+
+</LinearLayout>
